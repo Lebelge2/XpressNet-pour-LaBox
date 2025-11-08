@@ -8,7 +8,7 @@
 //=========================================== XpressNetESP V.4  Half-Duplex ou Full-Duplex =====================================================
 
 // Dernière modif: 06-11-25
-//                             //------ Définisser un mode de transmission --------
+
 #include <Arduino.h>
 #include <driver/uart.h>
 #include "DCC.h"
@@ -586,3 +586,4 @@ void XPressNetESP::Marqueur2(int b) {    // Pour analyseur logique
   digitalWrite(14, LOW);       // Bas  -__
 }
 #endif
+
