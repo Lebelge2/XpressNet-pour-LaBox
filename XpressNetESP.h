@@ -17,8 +17,8 @@
 #ifdef ENABLE_XPRESSNET
 
 //                             //------ Définisser un mode de transmission --------
-//#define FULL_DUPLEX            //----------------Mode Full-Duplex -----------------
-#define HALF_DUPLEX          //----------------Mode Half-Duplex -----------------
+#define FULL_DUPLEX            //----------------Mode Full-Duplex -----------------
+//#define HALF_DUPLEX          //----------------Mode Half-Duplex -----------------
 
 #if not defined(FULL_DUPLEX) && not defined(HALF_DUPLEX)
 #error Définissez un mode de transmission: Half_Duplex ou Full_Duplex.
@@ -85,3 +85,4 @@ static StateCV  stateCV;
 
 #endif
 #endif
+
