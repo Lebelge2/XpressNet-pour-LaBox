@@ -71,8 +71,6 @@ int timeExceeded;
 uint8_t memoTrnt;
 byte dataTx[15];
 
-void AfficheRx();
-void AfficheTx();
 //--------------------------------------------------------------------------------
 XPressNet::XPressNet(int inRxPin, int inTxPin, int inDirPin) : EXCommItem("XPressNet") {
   rxPin = inRxPin;          // 12
